@@ -1,7 +1,7 @@
 class Solution:
     def reverse(self, x: int) -> int:
-        INT_MIN = -2**31      # -2147483648
-        INT_MAX = 2**31 - 1   # 2147483647
+        INT_MIN = -2**31      
+        INT_MAX = 2**31 - 1   
 
         str_x = str(x)
         if str_x[0] == '-':
@@ -13,7 +13,6 @@ class Solution:
             rev_str = str_new[::-1]
             result = int(rev_str)
         
-        # Check for overflow after conversion
         if result < INT_MIN or result > INT_MAX:
             return 0
         

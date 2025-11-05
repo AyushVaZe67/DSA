@@ -1,11 +1,17 @@
-DSA with Python
-My Data Structures & Algorithms learning journey.
+# 🧠 Data Structures & Algorithms
 
-🛠️ Tech Stack
-Language: Python
+My journey mastering Data Structures and Algorithms through LeetCode challenges.
 
-Platform: LeetCode
+## 🛠️ Tech Stack
+- **Language**: Python 🐍
+- **Platform**: LeetCode 🔗
+- **Focus**: Core DSA Concepts
 
-Level: Beginner
+## 🎯 Current Focus
+- Fundamental Data Structures
+- Algorithm Patterns
+- Complexity Analysis
 
-Building DSA foundations with Python 🐍
+---
+
+*Building strong foundations, one problem at a time.* 🚀

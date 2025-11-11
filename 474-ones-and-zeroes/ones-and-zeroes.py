@@ -6,7 +6,6 @@ class Solution:
             zeros = s.count('0')
             ones = len(s) - zeros
             
-            # Update dp from bottom-right to top-left
             for i in range(m, zeros - 1, -1):
                 for j in range(n, ones - 1, -1):
                     dp[i][j] = max(dp[i][j], dp[i - zeros][j - ones] + 1)

@@ -27,5 +27,4 @@ class Solution:
                 right = i - 1
             else:
                 left = i + 1
-        
         return 0.0
